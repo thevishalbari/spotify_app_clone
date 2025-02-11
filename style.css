@@ -1,0 +1,36 @@
+*{
+
+    font-family: monospace;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    /* background-color: #121212; */
+    background-color:  yellow;
+    width: 200px;
+    border-radius: 1rem;        /*  1rem = 16px */ 
+}
+
+.main-content{
+    /* background-color: #121212; */
+    background-color: red;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.footer{
+    /* background-color: #121212; */
+    background-color: teal; 
+    position: fixed;
+    bottom: 0;
+    height: 72px;
+    width: 100%;
+}
