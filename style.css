@@ -6,21 +6,21 @@
     background-color: black;
 }
 
+/*  Layout Design */
+
 .main{
     display: flex;
     height: 100vh;
 }
 
 .sidebar{
-    /* background-color: #121212; */
-    background-color:  yellow;
-    width: 200px;
+    background-color: green;
+    width: 250px;
     border-radius: 1rem;        /*  1rem = 16px */ 
 }
 
 .main-content{
     /* background-color: #121212; */
-    background-color: red;
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
@@ -28,9 +28,52 @@
 
 .footer{
     /* background-color: #121212; */
-    background-color: teal; 
+    background-color: red;
     position: fixed;
     bottom: 0;
     height: 72px;
     width: 100%;
 }
+
+/*      SideBar Design */
+
+/* Sidebar Nav */
+.sidebar .nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding:  0.5rem 0.75rem;
+}
+
+.sidebar .nav .nav-option{
+    color: white;
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+
+.sidebar .nav .nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}
+
+/*  Sidebar Library */
+
+
+
+
+
