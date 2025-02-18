@@ -35,6 +35,11 @@
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /*      SideBar Design */
 
 /* Sidebar Nav */
@@ -60,19 +65,30 @@
 }
 
 .nav-option i{
+    color: white;
     font-size: 1rem;
     margin-left: 0.5rem;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+.nav-option a{
     font-size: 1.25rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 
 /*  Sidebar Library */
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+}
 
+.option{
+    display: flex;
+}
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
 
 
 
